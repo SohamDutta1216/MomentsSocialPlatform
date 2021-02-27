@@ -10,7 +10,8 @@ export default makeStyles((theme) => ({
     padding: theme.spacing(4),
     backgroundColor: 'black',
     color: 'black',
-    padding: '23px'
+    padding: '23px',
+    borderRadius: '45px'
   },
   form: {
     color: 'white',
@@ -24,5 +25,12 @@ export default makeStyles((theme) => ({
   },
   buttonSubmit: {
     marginBottom: 10,
+    borderRadius: '45px',
+    backgroundColor: 'orange'
   },
+  buttonClear: {
+    borderRadius: '45px',
+    backgroundColor: 'grey'
+
+  }
 }));

@@ -52,4 +52,13 @@ export default makeStyles({
     display: 'flex',
     justifyContent: 'space-between',
   },
+  tags: {
+    color: 'orange'
+  },
+  likeIconColor: {
+    color: 'orange'
+  },
+  deleteIconColor: {
+    color: 'grey'
+  }
 });
