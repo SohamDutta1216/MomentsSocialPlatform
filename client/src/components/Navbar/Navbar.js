@@ -11,7 +11,9 @@ export default function Navbar() {
   return (
     <AppBar className={classes.appBar} position="static">
       <div className={classes.brandContainer} />
-      <img component={Link} to="/" className={classes.image} src={logo} alt="icon" height="100" />
+      <Link exact to="/">
+        <img className={classes.image} src={logo} alt="icon" height="100" />
+      </Link>
       <Toolbar className={classes.toolbar}>
         {user ? (
           <div className={classes.profile}>
