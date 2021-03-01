@@ -13,6 +13,7 @@ export default function Navbar() {
   const dispatch = useDispatch();
   const location = useLocation();
   const history = useHistory();
+
   const logout = () => {
     dispatch({ type: actionType.LOGOUT });
 

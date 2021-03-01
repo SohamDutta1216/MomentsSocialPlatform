@@ -9,9 +9,9 @@ export default makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(4),
     backgroundColor: 'black',
-    color: 'black',
     padding: '23px',
-    borderRadius: '45px'
+    borderRadius: '45px',
+    color: 'white'
   },
   form: {
     color: 'white',
@@ -32,5 +32,8 @@ export default makeStyles((theme) => ({
     borderRadius: '45px',
     backgroundColor: 'grey'
 
+  },
+  pleaseSignIn: {
+    color: 'white'
   }
 }));
