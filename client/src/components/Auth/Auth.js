@@ -18,13 +18,14 @@ export default function Auth() {
   const history = useHistory();
   const classes = useStyles()
 
+  const [form, setForm] = useState(initialState);
   const [userExists, setUserExists] = useState(false)
   const [showPassword, setShowPassword] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (isSignup) {
+    if (userExists) {
       dispatch(signup(form, history));
     } else {
       dispatch(signin(form, history));

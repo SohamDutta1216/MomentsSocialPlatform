@@ -8,6 +8,7 @@ import cors from 'cors';
 import dotenv from 'dotenv'
 //import routes
 import postRoutes from './routes/posts.js'
+import userRouter from "./routes/user.js";
 
 const app = express();
 dotenv.config()
